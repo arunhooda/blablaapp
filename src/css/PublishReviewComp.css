@@ -1,0 +1,200 @@
+.reviewdiv{
+
+	display: flex;
+	flex-direction: column;
+	padding-left: 15rem;
+	padding-right: 15rem;
+	background-color: #054752;
+	margin-top: 10rem;
+}
+
+
+
+
+
+.reviewtop{
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: white;
+	position: relative;
+	top: -15vh;
+	justify-content: center;
+	box-shadow: 5px 5px 10px;
+	padding: 3rem;
+	border-radius: 1rem;
+}
+
+.reviewtop h6{
+
+	font-size: 3rem;
+}
+.reviewtop p{
+
+	font-size: 1.6rem;
+}
+
+
+
+.reviewbottom{
+
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 7rem;
+}
+
+
+
+.reviewbottom img{
+
+
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+.publishinfo{
+
+	display: flex;
+	flex-direction: column;
+	padding-left: 15rem;
+	padding-right: 15rem;
+
+	margin-top: 10rem;
+}
+
+
+
+.publishinfo h2{
+
+font-size: 3rem;
+padding-bottom: 2rem;
+}
+
+
+
+.rb_rightpanel{
+display: flex;
+gap: 2rem;
+padding: 2rem;
+font-size: 2rem;
+}
+
+
+
+.rb_rightpanel p{
+font-size: 1.5rem;
+
+}
+
+
+
+.finalpbdiv{
+
+
+	display: flex;
+	flex-direction: column;
+
+	background-color: lightgrey;
+
+	padding-left: 15rem;
+	padding-right: 15rem;
+	padding-top: 5rem;
+	margin-top: 5rem;
+	font-size: 2rem;
+}
+
+.finalpbdiv_threecontainer{
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding-top: 2rem;
+	grid-gap: 2rem;
+	padding-bottom: 2rem;
+	padding-top: 3rem;
+}
+
+
+.finalpanel{
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.finalpanel p{
+	font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+
+.reviewtop{
+
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 5rem;
+}
+
+
+.reviewdiv{
+
+
+	padding-left: 5rem;
+	padding-right: 5rem;
+	
+}
+
+
+
+.reviewbottom{
+
+
+	display: grid;
+	grid-template-columns: repeat(1, 1fr) ;
+	grid-gap: 5rem;
+
+	padding-left: 5rem;
+	padding-right: 5rem;
+	 justify-content: center;
+
+	
+
+}
+
+.publishinfo{
+
+	display: flex;
+	flex-direction: column;
+	padding-left: 5rem;
+	padding-right:5rem;
+
+	
+}
+
+
+.finalpbdiv{
+
+
+	
+
+	padding-left:5rem;
+	padding-right: 5rem;
+	
+}
+
+.finalpbdiv_threecontainer{
+
+
+	grid-template-columns: repeat(1, 1fr);
+	
+}
+
+
+}
+
+
+
+@media (max-width: 450px) {
+	
+}

@@ -1,0 +1,74 @@
+.publishride{
+
+margin-top: 10vh;
+	background: url("../assets/pbridebg.jpg");
+
+ padding-left: 15rem;
+ padding-right: 20rem;
+
+ display: flex;
+ flex-direction: column;
+
+}
+
+.publishrideform{
+
+	
+}
+
+.publishride h2{
+
+	font-size: 4rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.publishrideform label{
+
+	font-size: 2rem;
+	
+	padding-bottom: 1rem;
+	
+	
+}
+.publishrideform input{
+
+	padding-bottom: 2rem;
+
+
+	
+}
+
+.publishrideform input[type=text], select, textarea,input[type=date] {
+  width: 25rem;
+  padding: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.publishrideform label {
+  padding: 1.2rem;
+  display: inline-block;
+  width: 25rem;
+}
+
+@media (max-width: 768px) {
+
+.publishride{
+
+
+
+ padding-left: 5rem;
+ padding-right: 5rem;
+
+
+
+}
+
+
+}
+
+@media (max-width: 450px) {
+	
+}

@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "email": "arun@gmail.com",
+      "password": "arun@123",
+      "ridespublished": 3,
+      "joiningdate": "2021-10-27T13:00:42.910Z",
+      "ridestaken": 0,
+      "id": 1,
+      "name": "arun hooda",
+      "gender": "male",
+      "mobile": "9999179567",
+      "talking": "silent"
+    },
+    {
+      "email": "arun1@gmail.com",
+      "password": "arun@123",
+      "ridespublished": 0,
+      "joiningdate": "2021-10-27T17:43:47.238Z",
+      "ridestaken": 0,
+      "id": 2,
+      "name": "ravi kumar",
+      "gender": "male",
+      "mobile": "9865989898",
+      "talking": "talkative"
+    },
+    {
+      "email": "narender@gmail.com",
+      "password": "narender@123",
+      "ridespublished": 0,
+      "joiningdate": "2021-10-30T14:05:53.799Z",
+      "ridestaken": 0,
+      "id": 3
+    }
+  ],
+  "rides": [
+    {
+      "origin": "delhi",
+      "destination": "ambala",
+      "tripdate": "2021-10-29",
+      "fullorigin": "dsdsds",
+      "fulldestination": "sdsds",
+      "smoke": "true",
+      "pet": "true",
+      "fare": "800",
+      "car": "asasa",
+      "passengers": 2,
+      "id": 1,
+      "passengerList": [
+        "2",
+        ""
+      ]
+    },
+    {
+      "origin": "delhi",
+      "destination": "panipat",
+      "tripdate": "2021-10-29",
+      "fullorigin": "delhi kabadi bazar",
+      "fulldestination": "panipat kambal market",
+      "smoke": "false",
+      "pet": "false",
+      "fare": "500",
+      "car": "mercedes",
+      "passengers": 0,
+      "passengerList": [
+        1,
+        {
+          "name": "arun hooda",
+          "id": "1",
+          "gender": "male"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "origin": "delhi",
+      "destination": "panipat",
+      "tripdate": "2021-10-30",
+      "fullorigin": "kabadkhana",
+      "fulldestination": "kambal bazar",
+      "smoke": "false",
+      "pet": "false",
+      "fare": "800",
+      "car": "sumo",
+      "passengers": 2,
+      "passengerList": [
+        {
+          "name": "arun hooda",
+          "id": "1",
+          "gender": null
+        },
+        {
+          "name": "arun hooda",
+          "id": "1",
+          "gender": "male"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "origin": "jaipur",
+      "destination": "patiala",
+      "tripdate": "2021-10-28",
+      "fullorigin": "ddsd",
+      "fulldestination": "sdsds",
+      "smoke": "true",
+      "pet": "true",
+      "fare": "855",
+      "car": "dsds",
+      "passengers": 3,
+      "passengerList": [],
+      "id": 4
+    },
+    {
+      "origin": "dsd",
+      "destination": "sdsds",
+      "tripdate": "2021-11-03",
+      "fullorigin": "sdsd",
+      "fulldestination": "sdsds",
+      "smoke": "true",
+      "pet": "false",
+      "fare": "sds",
+      "car": "dsds",
+      "passengers": 2,
+      "passengerList": [],
+      "id": 5
+    },
+    {
+      "origin": "sds",
+      "destination": "dsds",
+      "tripdate": "2021-10-29",
+      "fullorigin": "sdsds",
+      "fulldestination": "sdsd",
+      "smoke": "true",
+      "pet": "true",
+      "fare": "sds",
+      "car": "dsdsd",
+      "passengers": 2,
+      "passengerList": [],
+      "id": 6
+    },
+    {
+      "origin": "delhi",
+      "destination": "panipat",
+      "tripdate": "2021-10-29",
+      "fullorigin": "delhi kabadi bazar",
+      "fulldestination": "panipat kambal market",
+      "smoke": "false",
+      "pet": "false",
+      "fare": "500",
+      "car": "mercedes",
+      "passengers": 0,
+      "passengerList": [
+        1,
+        {
+          "name": "arun hooda",
+          "id": "1",
+          "gender": "male"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "origin": "delhi",
+      "destination": "panipat",
+      "tripdate": "2021-10-29",
+      "fullorigin": "delhi kabadi bazar",
+      "fulldestination": "panipat kambal market",
+      "smoke": "false",
+      "pet": "false",
+      "fare": "500",
+      "car": "mercedes",
+      "passengers": 1,
+      "passengerList": [
+        1,
+        {
+          "name": "arun hooda",
+          "id": "1",
+          "gender": "male"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "origin": "delhi",
+      "destination": "ambala",
+      "tripdate": "2021-10-30",
+      "fullorigin": "dsdsd",
+      "fulldestination": "sdsds",
+      "smoke": "true",
+      "pet": "true",
+      "fare": "Rs500",
+      "car": "alto",
+      "passengers": 3,
+      "passengerList": [],
+      "driver": "arun hooda",
+      "rating": "3/5",
+      "id": 9
+    }
+  ]
+}

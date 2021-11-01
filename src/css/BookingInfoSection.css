@@ -1,0 +1,62 @@
+.bookinginfosection {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5rem;
+	padding-left: 20rem;
+	padding-right: 25rem;
+	padding-top: 5rem;
+}
+
+.bookinginfosection_bookingpanel {
+	display: flex;
+	flex-direction: column;
+	padding-top: 5rem;
+}
+
+.bookinginfosection_bookingpanel h3 {
+	font-size: 3rem;
+}
+
+.bookinginfosection_bookingpanel p {
+	font-size: 1.5rem;
+}
+
+.bookinginfosection_bookingpanel button {
+	font-size: 1.5rem;
+	padding: 1.5rem;
+	background-color: lightblue;
+	width: 15rem;
+	margin-top: 2rem;
+	border-radius: 2rem;
+}
+
+
+
+@media (max-width: 812px) {
+
+
+.bookinginfosection {
+	
+	grid-template-columns: repeat(1, 1fr);
+
+	grid-gap: 5rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
+	padding-top: 5rem;
+	
+}
+
+.bookinginfosection_bookingpanel {
+     align-items: center;
+     justify-content: center;
+}
+
+img{
+	height: 100%;
+	width: 100%;
+}
+}
+
+@media (max-width: 450px) {
+	
+}

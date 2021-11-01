@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	min-width: 200px;
+	overflow-x: hidden;
+}
+
+/*   main container of the body   */
+#app {
+}
+
+#nav {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 10vh;
+}
+
+#nav .nav_menu{
+
+	display: flex;
+}
+
+#nav .nav_menu span {
+	font-size: 2rem;
+	margin: 0.5rem;
+}
+
+#nav span {
+	font-size: 3rem;
+}
+
+.usermenu {
+	position: absolute;
+	top: 9vh;
+	right: 0;
+	font-size: 2rem;
+
+	padding: 3rem;
+	background-color: white;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	z-index: 10000;
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+
+	align-items: center;
+	box-shadow: 5px 5px 10px;
+}
+
+.active {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+
+.hamburgermenu{
+	display: none;
+
+}
+
+.hm_menu {
+	position: absolute;
+	top: 9vh;
+	left: 0;
+	font-size: 1.5rem;
+
+	padding: 3rem;
+	background-color: white;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	z-index: 10000;
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+
+	align-items: center;
+	box-shadow: 5px 5px 10px;
+
+}
+
+.active2 {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	
+}
+
+
+/*   media queries   */
+
+@media (max-width: 991px) {
+	html {
+		font-size: 55%;
+	}
+	#nav {
+		padding: 1.5rem;
+	}
+}
+
+@media (max-width: 768px) {
+
+.hamburgermenu{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: ;
+	font-size: 2rem;
+	
+     
+}
+
+.nav_menu_firstmenu{display: none;}
+
+}
+
+@media (max-width: 450px) {
+	html {
+		font-size: 50%;
+	}
+}
+
+
